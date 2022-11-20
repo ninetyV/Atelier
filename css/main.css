@@ -157,5 +157,148 @@ body {
   color: #FFAE2B;
   text-align: center;
   margin-bottom: 60px;
+} 
+
+.template__pages-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.template__card {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border: 1px solid #4B4136;
+  padding: 41px 41px 0;
+}
+
+.card__inner-p {
+  font-family: 'Old Standard TT';
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 41px;
+} 
+
+.mid__page-img {
+  margin-top: 90px;
+  background: url(../img/midpageimg.png) no-repeat center/cover; 
+  max-width: 100%;
+  max-height: 100%; 
+  height: 580px;
+} 
+
+
+.our__services {
+  margin-top: 158px;
+}
+.our__services-p {
+  font-family: 'Old Standard TT';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: center; 
+  color: #ACA592;
+  text-transform: uppercase;
+}
+.our__services-h {
+  font-family: 'Old Standard TT';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFAE2B; 
+  margin: 10px 0 60px;
+} 
+
+.our__services-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.wrap__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  border: 1px solid #4B4136; 
+  padding: 61px 117px 76px 61px;
+  position: relative;
+}
+.square {
+  font-size: 40px;
+  color: #54493E;
+  position: absolute;
+  top: 38px;
+  left: 63px;
+}
+
+.triangle {
+  font-size: 40px;
+  color: #FFAE2B; 
+  position: relative;
+}
+
+.wrap__card-h {
+  font-family: 'Old Standard TT';
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #FFAE2B;
+  padding-top: 20px;
+}
+
+.wrap__card-p1 {
+  font-family: 'Old Standard TT';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ACA592;
+  padding-top: 10px;
+}
+
+.wrap__card-p2 {
+  font-family: 'Old Standard TT';
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ACA592;
+  width: 222px;
+  padding-top: 5px;
+} 
+
+.circle {
+  font-size: 40px;
+  position: relative; 
+  color: #FFAE2B;
+}
+
+.hollow__circle {
+  font-size: 40px;
+  position: absolute;
+  color:#54493E;
+  top: 55px;
+  left: 45px;
+  z-index: 1;
+} 
+
+.new__circle {
+  font-size: 40px;
+  color: #FFAE2B;
+  position: absolute;
+  z-index: 1;
+  top: 37px;
+  left: 64px;
+}
+
+.pentagon {
+  font-size: 40px;
+  color: #54493E; 
+  position: relative;
+}
